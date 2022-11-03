@@ -5,7 +5,7 @@ import { Button, Image } from 'react-native';
 import icon from './assets/vh.png'
 
 
-export default function App() {
+export default function FollowMouse() {
 
   const [location, setLocation] 
       = useState({
@@ -58,7 +58,7 @@ export default function App() {
       onResponderRelease = {onRelease}
       style={styles.container}>
 
-      <Text style={{margin: 30, fontSize: 20 }}>Show something!</Text>
+      <Text>Show something!</Text>
      
       <Animated.Image
        source = {icon}
